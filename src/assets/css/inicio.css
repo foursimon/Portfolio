@@ -1,0 +1,45 @@
+.inicio-container .links-container a img{
+    width: 25px;
+}
+
+.inicio{
+    height: 500px;
+    background-image: url("../images/aurora.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio-container{
+    color:#00F7FF;
+}
+.inicio-container p{
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+.inicio-container h1{
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+.links-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-container a{
+    color: inherit;
+    display: flex;
+    align-items: center;
+    gap:2px;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.links-container a:hover{
+    text-decoration: underline;
+}

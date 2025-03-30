@@ -1,0 +1,22 @@
+import linkedin from "../images/linkedin.png"
+import github from "../images/github.png"
+
+export function Inicio(){
+    return(
+        <section className="inicio" id="inicio">
+            <div className="inicio-container">
+                <p>Prazer em conhecer você, eu sou</p>
+                <h1>Giovanni Alves Valieri</h1>
+                <div className="links-container">
+                    <a href="https://www.linkedin.com/in/giovanni-valieri-b81453260/">
+                    <img src={linkedin} alt="logo do LinkedIn com tamanho pequeno" />Veja meu perfil no LinkedIn</a>
+                    <a href="https://github.com/foursimon">
+                        <img src={github} alt="logo do Github com tamanho pequeno" />Veja meu perfil no GitHub</a>
+                </div>
+            </div>
+            <div className="img-container">
+                {/* <img src="" alt=""/> */}
+            </div>
+        </section>
+    )
+}
