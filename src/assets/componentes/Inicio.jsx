@@ -1,6 +1,6 @@
 import linkedin from "../images/linkedin.png"
 import github from "../images/github.png"
-
+import eu from "../images/eu.jpg"
 export function Inicio(){
     return(
         <section className="inicio" id="inicio">
@@ -15,7 +15,7 @@ export function Inicio(){
                 </div>
             </div>
             <div className="img-container">
-                {/* <img src="" alt=""/> */}
+                <img src={eu} alt="selfie do autor do portfólio do peito para cima, usando moletom cinza e óculos de grau."/>
             </div>
         </section>
     )
