@@ -5,6 +5,10 @@ header{
     color: #00F7FF;
     border-bottom: 2px #0F969C solid;
     padding: 10px 40px;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(to right, #05161a, #063e41, #014e51);
+    background-repeat: no-repeat;
 }
 .header-title-container{
     display: flex;
@@ -42,10 +46,11 @@ header{
 
 .menu-btn{
     cursor: pointer;
-    position: absolute;
-    bottom: 0px;
+    position: fixed;
+    bottom: 0;
     right: 10px;
     border: 4px #0F969C solid;
+    background-color: #012b34;
     border-radius: 5px;
     border-bottom: none;
     padding: 5px;
@@ -64,19 +69,20 @@ header{
 
 @media  screen and (max-width: 770px) {
     .header-nav .nav-list{
-        position: absolute;
+        position: fixed;
         bottom:0;
         left:0;
         width: 100vw;
         height: 10vh;
         justify-content: space-around;
         background-color: #014e51;
-        transform: translateY(200%);
+        transform: translateX(200%);
         flex-wrap: wrap;
     }
     header{
         padding: 10px 10px;
         justify-content: center;
+        position: static;
     }
     .menu-btn{
         display: flex;
@@ -86,9 +92,10 @@ header{
     .menu-btn.clicked{
         padding: 9px 5px;
         transform: translateY(-10vh);
+        border-color: #00F7FF;
     }
     .nav-list.show-nav{
-        transform: translateY(0);
+        transform: translateX(0);
     }
     .menu-btn.clicked .line1{
         transform: rotate(45deg) translate(4px, 3px);
@@ -98,5 +105,6 @@ header{
     }
     .menu-btn.clicked .line3{
         transform: rotate(-45deg) translate(2px, -2px);
+        background-color: #00F7FF;
     }
 }
