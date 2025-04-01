@@ -1,0 +1,114 @@
+.sobre-article{
+    color: #00F7FF;
+    height: 600px;
+    padding: 20px;
+    height: min-content;
+}
+
+.section-title{
+    margin-bottom: 22px;
+}
+
+.tempo-container{
+    margin-top: 10px;
+    place-items: center;
+} 
+.sobre-container p{
+    max-width: 800px;
+    line-height: 25px;
+}
+.sobre-container{
+    place-items: center;
+    margin-bottom: 40px;
+}
+
+.linha-container{
+    margin-top: 30px;
+    max-width: 500px;
+    display: grid;
+    grid-auto-columns: 80%;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-items: start;
+    overflow-y: hidden;
+    padding-bottom: 20px;
+}
+.linha-container .linha{
+    background-color: #0F969C;
+    height: 5px;
+    max-width: inherit;
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    margin-bottom: 24px;
+    z-index: -1;
+}
+.esfera{
+    background-color: #0F969C;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.mini-esfera{
+    background-color: #0F969C;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.tempo, .tempoPequeno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Prompt, "Arial";
+    cursor: help;
+}
+
+.tempoPequeno{
+    top: -22px;
+    font-size: 0.8rem;
+    color: #0F969C;
+}
+
+.display-container{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 300px;
+}
+.display-img-container{
+    border: 4px #00F7FF solid;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+div.display-img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+div.display-text-container{
+    border: 4px #00F7FF solid;
+    background-color: #014e51;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    padding: 5px;
+    line-height: 16px;
+    min-width: 200px;
+}
+.tempoPequeno:hover{
+    color: #00F7FF;
+}
+
+@media (pointer: coarse) {
+    .display-container{
+        display: none;
+    }
+}
