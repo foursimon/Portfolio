@@ -1,7 +1,6 @@
 import {useState} from "react"
 import { DisplayTempo } from "./DisplayTempo"
 export function Tempo(props){
-    console.log(props)
     const [display, setDisplay] = useState(false)
     const [position, setPosition] = useState({x: 0, y: 0})
     function handleMouseOverDisplay(){
@@ -9,7 +8,7 @@ export function Tempo(props){
     }
     return(
         <div onMouseEnter={handleMouseOverDisplay} onMouseLeave={handleMouseOverDisplay}
-        onPointerMove={(e) => setPosition({x: e.clientX, y:e.clientY})}
+        onPointerMove={(e) => setPosition(prev => ({...prev, x: e.clientX, y:e.clientY}))}
             className={props.esferaGrande ? "tempo" : "tempoPequeno"}>
             <div className={props.esferaGrande ? "esfera" : "mini-esfera"}></div>
             <span>{props.title}</span>

@@ -72,7 +72,7 @@
 }
 
 .display-container{
-    position: absolute;
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,6 +101,7 @@ div.display-text-container{
     font-size: 0.8rem;
     padding: 5px;
     line-height: 16px;
+    min-width: 200px;
 }
 .tempoPequeno:hover{
     color: #00F7FF;
