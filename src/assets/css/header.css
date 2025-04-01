@@ -78,6 +78,7 @@ header{
         background-color: #014e51;
         transform: translateX(200%);
         flex-wrap: wrap;
+        z-index: 1000000;
     }
     header{
         padding: 10px 10px;
