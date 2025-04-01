@@ -102,7 +102,6 @@ div.display-text-container{
     padding: 5px;
     line-height: 16px;
 }
-.tempoPequeno:hover, .tempo:hover{
+.tempoPequeno:hover{
     color: #00F7FF;
-    border-top: 2px solid #00F7FF;
 }
