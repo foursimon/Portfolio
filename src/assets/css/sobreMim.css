@@ -105,3 +105,9 @@ div.display-text-container{
 .tempoPequeno:hover{
     color: #00F7FF;
 }
+
+@media (pointer: coarse) {
+    .display-container{
+        display: none;
+    }
+}
