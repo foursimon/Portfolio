@@ -2,6 +2,7 @@
     color: #00F7FF;
     height: 600px;
     padding: 20px;
+    height: min-content;
 }
 
 .section-title{
@@ -10,6 +11,7 @@
 
 .tempo-container{
     margin-top: 10px;
+    place-items: center;
 } 
 .sobre-container p{
     max-width: 800px;
@@ -21,15 +23,25 @@
 }
 
 .linha-container{
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: baseline;
+    margin-top: 30px;
+    max-width: 500px;
+    display: grid;
+    grid-auto-columns: 80%;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-items: start;
+    overflow-y: hidden;
+}
+.linha-container .linha{
     background-color: #0F969C;
     height: 5px;
+    max-width: inherit;
+    width: 100%;
     border-radius: 10px;
+    position: absolute;
+    margin-bottom: 24px;
+    z-index: -1;
 }
-
 .esfera{
     background-color: #0F969C;
     width: 35px;
@@ -44,13 +56,12 @@
     border-radius: 50%;
 }
 .tempo, .tempoPequeno{
-    position: relative;
-    top: -15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: Prompt, "Arial";
+    cursor: help;
 }
 
 .tempoPequeno{
@@ -61,17 +72,17 @@
 
 .display-container{
     position: absolute;
-    transform: translateY(-100px);
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    max-width: 300px;
 }
 .display-img-container{
     border: 4px #00F7FF solid;
     border-radius: 10px;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     flex-shrink: 0;
 }
 
@@ -88,12 +99,9 @@ div.display-text-container{
     border-radius: 10px;
     font-size: 0.8rem;
     padding: 5px;
+    line-height: 16px;
 }
-
-.tempo:hover{
-    transform: scale(1.2);
-}
-.tempoPequeno:hover{
-    transform: scale(1.2);
+.tempoPequeno:hover, .tempo:hover{
     color: #00F7FF;
+    border-top: 2px solid #00F7FF;
 }

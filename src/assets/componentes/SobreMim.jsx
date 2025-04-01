@@ -1,5 +1,8 @@
 import {Tempo} from "./subcomponentes/Tempo"
+import dados from "../../dadosLinhaTempo.js"
 export function SobreMim() {
+    const tempoComponent = dados.map(dado => <Tempo key={dado.id} {...dado}/>
+    )
     return (
         <article className="sobre-article" id="sobre">
             <section className="sobre-container">
@@ -19,11 +22,8 @@ export function SobreMim() {
             <section className="tempo-container">
                 <h2 className="section-title">Linha do Tempo</h2>
                 <div className="linha-container">
-                    <Tempo esferaGrande={true} title="2023">Comecei A.D.S na UNIP</Tempo>
-                    <Tempo esferaGrande={false} title="Curso Extracurricular">HTML Web Developer</Tempo>
-                    <Tempo esferaGrande={false} title="Curso Extracurricular">CSS Web Developer</Tempo>
-                    <Tempo esferaGrande={true} title="2024">Terminei minha graduação</Tempo>
-                    <Tempo esferaGrande={true} title="2025">Formatura realizada</Tempo>
+                    <div className="linha"></div>
+                    {tempoComponent}
                 </div>
             </section>
         </article>

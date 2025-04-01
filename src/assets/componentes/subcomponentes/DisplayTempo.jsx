@@ -1,10 +1,9 @@
-import unip from "../../images/unip.png"
-export function DisplayTempo(){
+export function DisplayTempo({posicao, imagem, descricao}){
     return(
-        <section className="display-container">
-            <div className="display-img-container"><img src={unip} alt="" /></div>
+        <section className="display-container" style={{left: `${posicao.x}px`, top:`${posicao.y + 260}px`}}>
+            <div className="display-img-container"><img src={imagem.src} alt={imagem.alt} /></div>
             <div className="display-text-container">
-                <p>Na data de 23 de janeiro de 2023, comecei a cursar Análise e Desenvolvimento de Sistemas na Unip</p>
+                <p>{descricao}</p>
             </div>
         </section>
     )

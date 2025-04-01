@@ -1,17 +1,20 @@
 import {useState} from "react"
 import { DisplayTempo } from "./DisplayTempo"
-export function Tempo({esferaGrande, title, children, ...resto}){
+export function Tempo(props){
+    console.log(props)
     const [display, setDisplay] = useState(false)
+    const [position, setPosition] = useState({x: 0, y: 0})
     function handleMouseOverDisplay(){
         setDisplay(prev => !prev)
     }
     return(
-        <div onMouseEnter={handleMouseOverDisplay} onMouseLeave={handleMouseOverDisplay} 
-            className={esferaGrande ? "tempo" : "tempoPequeno"}>
-            <div className={esferaGrande ? "esfera" : "mini-esfera"}></div>
-            <span>{title}</span>
-            <span>{children}</span>
-            {display ? <DisplayTempo/> : undefined}
+        <div onMouseEnter={handleMouseOverDisplay} onMouseLeave={handleMouseOverDisplay}
+        onPointerMove={(e) => setPosition({x: e.clientX, y:e.clientY})}
+            className={props.esferaGrande ? "tempo" : "tempoPequeno"}>
+            <div className={props.esferaGrande ? "esfera" : "mini-esfera"}></div>
+            <span>{props.title}</span>
+            <span>{props.subtitle}</span>
+            {display ? <DisplayTempo imagem={props.imagem} descricao={props.descricao} posicao={position}/> : undefined}
         </div>
     )
 }

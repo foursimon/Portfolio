@@ -1,6 +1,6 @@
-import linkedin from "../images/linkedin.png"
-import github from "../images/github.png"
-import eu from "../images/eu.jpg"
+import linkedin from "../images/design/linkedin.png"
+import github from "../images/design/github.png"
+import eu from "../images/design/eu.jpg"
 export function Inicio(){
     return(
         <section className="inicio" id="inicio">
