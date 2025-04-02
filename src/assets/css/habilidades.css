@@ -1,0 +1,49 @@
+.habilidades-section{
+    margin-top: 20px;
+    padding: 20px;
+    height: 500px;
+}
+.habilidades-container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    grid-template-rows: repeat(4, 1fr);
+    overflow-x: auto;
+}
+.habilidade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        color: white;
+    width: fit-content;
+}
+
+.habilidade img{
+    width: 65px;
+}
+.nivel-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:start;
+    gap: 1px;
+}
+.nivel-container p{
+    font-size: 1.2rem;
+    font-family: Prompt, Arial;
+}
+.nivel-estrela .star-icon{
+    font-size: 30px;
+    background-clip: text;
+    color: transparent;
+}
+.nivel-estrela{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}

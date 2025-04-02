@@ -49,7 +49,7 @@
 .img-container{
     border: 6px solid #0F969C;
     border-radius: 44px;
-    width: 367px;
+    max-width: 367px;
     height: 80%;
 }
 
