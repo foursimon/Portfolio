@@ -8,7 +8,7 @@ export function Tempo(props){
     }
     return(
         <div onMouseEnter={handleMouseOverDisplay} onMouseLeave={handleMouseOverDisplay}
-        onPointerMove={(e) => setPosition(prev => ({...prev, x: e.clientX, y:e.clientY}))}
+        onPointerMove={(e) => setPosition({x: e.clientX, y:e.clientY})}
             className={props.esferaGrande ? "tempo" : "tempoPequeno"}>
             <div className={props.esferaGrande ? "esfera" : "mini-esfera"}></div>
             <span>{props.title}</span>
