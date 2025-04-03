@@ -3,6 +3,7 @@ import {Inicio} from "./Inicio"
 import {SobreMim} from "./SobreMim"
 import {Habilidades} from "./Habilidades"
 import {Projetos} from "./Projetos"
+import {Footer} from "./Footer"
 import "../css/global.css"
 import "../css/header.css"
 
@@ -15,6 +16,7 @@ export default function Portfolio(){
                 <SobreMim />
                 <Habilidades />
                 <Projetos />
+                <Footer />
             </main>
         </>
     )

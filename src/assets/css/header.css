@@ -90,6 +90,7 @@ header{
         display: flex;
         flex-direction: column;
         gap:4px;
+        z-index: 100000;
     }
     .menu-btn.clicked{
         padding: 9px 5px;

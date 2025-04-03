@@ -1,0 +1,49 @@
+#contato{
+    position: relative;
+    background-color: #014e51;
+    place-items: center;
+    color: #00F7FF;
+    padding: 30px;
+}
+.contato-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.contato-section h2.section-title{
+    margin: 0;
+    font-size: 2.2rem;
+}
+footer div img{
+    width: 34px
+}
+footer div.contato-title-container img{
+    width: 50px;
+}
+footer div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+footer div.contato-container{
+    gap: 1;
+    font-family: Prompt, "Arial";
+    font-size: 1rem;
+}
+footer > p{
+    position: absolute;
+    bottom: 1;
+    right: 0;
+    font-size: 1rem;
+    font-family: Prompt, "Arial";
+}
+footer a{
+    color: #00F7FF;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
