@@ -13,7 +13,7 @@ export function Projetos(){
         </section>
     ))
     return (
-        <article className="projeto-article">
+        <article id="projetos" className="projeto-article">
             <h2 className="section-title">Meus projetos - destaques</h2>
             {projetos}
         </article>

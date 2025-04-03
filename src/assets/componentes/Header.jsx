@@ -13,9 +13,9 @@ export function Header(){
                 <ul className={menuVisivel ? "nav-list show-nav" : "nav-list"}>
                     <li className="list-item"><a href="#inicio">Início</a></li>
                     <li className="list-item"><a href="#sobre">Sobre mim</a></li>
-                    <li className="list-item"><a href="#">Habilidades</a></li>
-                    <li className="list-item"><a href="#">Projetos</a></li>
-                    <li className="list-item"><a href="#">Contato</a></li>
+                    <li className="list-item"><a href="#habilidades">Habilidades</a></li>
+                    <li className="list-item"><a href="#projetos">Projetos</a></li>
+                    <li className="list-item"><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
             <div className={menuVisivel ? "menu-btn clicked" : "menu-btn"} 
