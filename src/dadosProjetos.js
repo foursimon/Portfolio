@@ -30,7 +30,7 @@ export default [
         id: 3,
         nome: "Viagens - React",
         descricao: "Meu primeiro projeto desenvolvido usando a biblioteca React. Desenvolvi este projeto para colocar em pratica o que"
-        + " eu aprendi sobre componentes em React. Mesmo sendo algo simples, é essencial colocar o em prática o que aprendi na teoria.",
+        + " eu aprendi sobre componentes em React. Mesmo sendo algo simples, é essencial colocar em prática o que aprendi na teoria.",
         imagem:{
             src: "src/assets/images/projetos/viagens.gif",
             alt: "Gif mostrando o projeto Viagens, onde aparece três registros de viagens a diferentes lugares no mundo."
