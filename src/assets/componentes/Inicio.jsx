@@ -1,6 +1,7 @@
 import linkedin from "../images/design/linkedin.png"
 import github from "../images/design/github.png"
 import eu from "../images/design/eu.jpg"
+import "../css/inicio.css"
 export function Inicio(){
     return(
         <section className="inicio" id="inicio">
