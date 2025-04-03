@@ -9,6 +9,7 @@ header{
     top: 0;
     background: linear-gradient(to right, #05161a, #063e41, #014e51);
     background-repeat: no-repeat;
+    z-index: 2;
 }
 .header-title-container{
     display: flex;

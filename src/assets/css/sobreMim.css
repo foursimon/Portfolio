@@ -15,6 +15,7 @@
 .sobre-container p{
     max-width: 800px;
     line-height: 25px;
+    text-align: justify;
 }
 .sobre-container{
     place-items: center;
