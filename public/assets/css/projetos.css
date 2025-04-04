@@ -16,6 +16,7 @@
     align-items: center;
     height: min-content;
     text-align: justify;
+    line-height: 1.2rem;
     width: 80%;
     gap: 60px;
 }
