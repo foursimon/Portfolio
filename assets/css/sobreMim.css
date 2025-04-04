@@ -12,10 +12,11 @@
     margin-top: 10px;
     place-items: center;
 } 
-.sobre-container p{
+.sobre-paragrafo-container{
     max-width: 800px;
     line-height: 25px;
     text-align: justify;
+    font-size: 1rem;
 }
 .sobre-container{
     place-items: center;
@@ -25,8 +26,10 @@
 .linha-container{
     margin-top: 30px;
     max-width: 500px;
+    width: 100%;
+    column-gap:30px;
     display: grid;
-    grid-auto-columns: 80%;
+    grid-auto-columns: 100%;
     grid-auto-flow: column;
     align-items: center;
     justify-items: start;
@@ -37,7 +40,7 @@
     background-color: #0F969C;
     height: 5px;
     max-width: inherit;
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
     position: absolute;
     margin-bottom: 24px;
