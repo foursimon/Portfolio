@@ -14,7 +14,10 @@
     align-items: center;
     margin-bottom: 20px;
 }
-
+.links-container img{
+    border-radius: 5px;
+    background-color: #00F7FF;
+}
 .inicio-container{
     color:#00F7FF;
 }
@@ -71,8 +74,5 @@
     .img-container img{
         object-position: center;
     }
-    .links-container img{
-        border-radius: 5px;
-        background-color: #00F7FF;
-    }
+   
 }
