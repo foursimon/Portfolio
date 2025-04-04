@@ -1,5 +1,5 @@
 import {Star} from "./Star"
-import {DisplayTempo} from "./DisplayTempo"
+import {Display} from "./Display"
 import {useState} from "react"
 import "../../assets/css/habilidades.css"
 export function Habilidade(props){
@@ -17,7 +17,7 @@ export function Habilidade(props){
                     <p>{props.nome}</p>
                     <Star nivel={props.nivel} metade={props.metade}/>
                 </div>
-            {display ? <DisplayTempo  descricao={props.descricao} posicao={position}/> : undefined}
+            {display ? <Display  descricao={props.descricao} posicao={position}/> : undefined}
             </div>
     )
 }

@@ -1,5 +1,5 @@
 import {useState} from "react"
-import { DisplayTempo } from "./DisplayTempo"
+import { Display } from "./Display"
 export function Tempo(props){
     const [display, setDisplay] = useState(false)
     const [position, setPosition] = useState({x: 0, y: 0})
@@ -13,7 +13,7 @@ export function Tempo(props){
             <div className={props.esferaGrande ? "esfera" : "mini-esfera"}></div>
             <span>{props.title}</span>
             <span>{props.subtitle}</span>
-            {display ? <DisplayTempo imagem={props.imagem} descricao={props.descricao} posicao={position}/> : undefined}
+            {display ? <Display imagem={props.imagem} descricao={props.descricao} posicao={position}/> : undefined}
         </div>
     )
 }
