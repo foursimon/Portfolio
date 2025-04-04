@@ -18,7 +18,7 @@ export default [
         subtitle: "HTML Web Developer",
         descricao: "Em 19 de fevereiro de 2024, com carga horária de 21h, concluí o curso de Formação HTML Web Developer na Digital Innovation One.",
         imagem: {
-            src: "src/assets/images/trajetoria/DioHtml.png",
+            src: "./src/assets/images/trajetoria/DioHtml.png",
             alt: "Certificado de conclusão Formação HTML Web Developer da Digital Innovation One."
         },
         esferaGrande: false
@@ -29,7 +29,7 @@ export default [
         subtitle: "CSS Web Developer",
         descricao: "Em 09 de agosto de 2024, com carga horária de 43h, concluí o curso de Formação CSS Web Developer na Digital Innovation One.",
         imagem: {
-            src: "src/assets/images/trajetoria/DioCss.png",
+            src: "./src/assets/images/trajetoria/DioCss.png",
             alt: "Certificado de conclusão Formação CSS Web Developer da Digital Innovation One."
         },
         esferaGrande: false
@@ -40,7 +40,7 @@ export default [
         subtitle: "Terminei o último semestre de A.D.S.",
         descricao: "Em 2024, no dia 31 dezembro, foi finalizado o último ano letivo de A.D.S., marcando um grande passo em minha jornada.",
         imagem: {
-            src: "src/assets/images/trajetoria/unip.png",
+            src: "./src/assets/images/trajetoria/unip.png",
             alt: "Logo da Unip. O fundo é azul com o nome unip escrito em amarelo e as palavras universidade paulista escrita logo abaixo em branco"
         },
         esferaGrande: true
@@ -51,7 +51,7 @@ export default [
         subtitle: "Formatura na UNIP",
         descricao: "Na data de 28 de fevereiro de 2025, realizei minha formatura, definindo uma grande vitória em minha vida. Agora irei continuar caminhando em busca de mais uma conquista.",
         imagem: {
-            src: "src/assets/images/trajetoria/formado.jpg",
+            src: "./src/assets/images/trajetoria/formado.jpg",
             alt: "Foto do autor, Giovanni Alves Valieri, usando uma beca com cor preta de formatura e segurando o canudo com seu certificado de conclusão."
         },
         esferaGrande: true
