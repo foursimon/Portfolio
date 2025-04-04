@@ -13,7 +13,7 @@ export function Footer(){
                 </div>
                 <div className="contato-container">
                     <img src={email} alt="carta de mensagem pequena" />
-                    <p>Email: <a href="mailto:giovannivalieri5@gmail.com">giovannivalieri5@gmail.com</a></p>
+                    <p>Email: <a className="link" href="mailto:giovannivalieri5@gmail.com">giovannivalieri5@gmail.com</a></p>
                 </div>
                 <div className="contato-container">
                     <img src={whatsapp} alt="carta de mensagem pequena" />
@@ -21,7 +21,7 @@ export function Footer(){
                 </div>
                 <div className="contato-container">
                     <img src={linkedin} alt="carta de mensagem pequena" />
-                    <p>LinkedIn: <a href="https://www.linkedin.com/in/giovanni-valieri-b81453260/" target="_blank">Giovanni Valieri</a></p>
+                    <p>LinkedIn: <a className="link" href="https://www.linkedin.com/in/giovanni-valieri-b81453260/" target="_blank">Giovanni Valieri</a></p>
                 </div>
             </section>
             <p>©2025 Valieri.</p>
