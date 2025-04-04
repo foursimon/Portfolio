@@ -1,5 +1,4 @@
 import {Header} from "./Header"
-import {Inicio} from "./Inicio"
 import {SobreMim} from "./SobreMim"
 import {Habilidades} from "./Habilidades"
 import {Projetos} from "./Projetos"
@@ -12,12 +11,11 @@ export default function Portfolio(){
         <>
             <Header />
             <main>
-                <Inicio />
                 <SobreMim />
                 <Habilidades />
                 <Projetos />
-                <Footer />
             </main>
+            <Footer />
         </>
     )
 }
