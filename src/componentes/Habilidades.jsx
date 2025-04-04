@@ -1,5 +1,5 @@
 import {Habilidade} from "./subcomponentes/Habilidade"
-import dadosHabilidades from "../../dadosHabilidades"
+import dadosHabilidades from "../dadosHabilidades"
 export function Habilidades(){
     const dadosOrdenados = dadosHabilidades.sort((a, b) => b.nivel - a.nivel)
     return(

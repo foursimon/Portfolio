@@ -1,7 +1,7 @@
 import {Star} from "./Star"
 import {DisplayTempo} from "./DisplayTempo"
 import {useState} from "react"
-import "../../css/habilidades.css"
+import "../../assets/css/habilidades.css"
 export function Habilidade(props){
     const [position, setPosition] = useState({x: 0, y:0})
     function handleDisplay(){

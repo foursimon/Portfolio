@@ -1,6 +1,6 @@
 import {Tempo} from "./subcomponentes/Tempo"
-import dados from "../../dadosLinhaTempo.js"
-import "../css/sobreMim.css"
+import dados from "../dadosLinhaTempo.js"
+import "../assets/css/sobreMim.css"
 export function SobreMim() {
     const tempoComponent = dados.map(dado => <Tempo key={dado.id} {...dado}/>
     )

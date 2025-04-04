@@ -1,5 +1,5 @@
-import dadosProjetos from "../../dadosProjetos.js"
-import "../css/projetos.css"
+import dadosProjetos from "../dadosProjetos.js"
+import "../assets/css/projetos.css"
 export function Projetos(){
     const projetos = dadosProjetos.map(dado => (
         <section key={dado.id} className="projeto-section">

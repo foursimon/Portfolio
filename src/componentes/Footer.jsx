@@ -1,8 +1,8 @@
-import email from "../images/design/email.png"
-import whatsapp from "../images/design/whatsapp.png"
-import linkedin from "../images/design/linkedin2.png"
-import tel from "../images/design/telefone.png"
-import "../css/footer.css"
+import email from "../assets/images/design/email.png"
+import whatsapp from "../assets/images/design/whatsapp.png"
+import linkedin from "../assets/images/design/linkedin2.png"
+import tel from "../assets/images/design/telefone.png"
+import "../assets/css/footer.css"
 export function Footer(){
     return(
         <footer id="contato">

@@ -1,4 +1,4 @@
-import "../../css/display.css"
+import "../../assets/css/display.css"
 export function DisplayTempo({posicao, imagem, descricao}){
     return(
         <section className="display-container" style={{left: `${posicao.x + 30}px`, top:`${posicao.y - 120}px`}}>

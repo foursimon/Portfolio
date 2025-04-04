@@ -4,8 +4,8 @@ import {SobreMim} from "./SobreMim"
 import {Habilidades} from "./Habilidades"
 import {Projetos} from "./Projetos"
 import {Footer} from "./Footer"
-import "../css/global.css"
-import "../css/header.css"
+import "../assets/css/global.css"
+import "../assets/css/header.css"
 
 export default function Portfolio(){
     return(
