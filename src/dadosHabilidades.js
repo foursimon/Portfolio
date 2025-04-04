@@ -45,7 +45,7 @@ export default [
         descricao: "Todos meus projetos são armazenados e compartilhados através do GitHub. Ver meu progresso em desenvolvimento "
         + "através dos meus projetos mostra que estou aprendendo bastante, mas que há muito caminho pela frente.",
         imagem:{
-            src: "./src/assets/images/design/github.png",
+            src: "./assets/images/design/github.png",
             alt:  "logo do GitHub",
         }
     },
@@ -57,7 +57,7 @@ export default [
         descricao: "Minhas APIs são desenvolvidas usando ASP.Net. Já apliquei autenticação JWT, chave API, Entity Framework, conexão "
         + "entre APIs com HttpClient e serviços CRUD em base de dados Relacionais. Além disso, também utilizo em aplicações com arquitetura MVC.",
         imagem:{
-            src: "./src/assets/images/design/aspnet.png",
+            src: "./assets/images/design/aspnet.png",
             alt:  "logo do visual studio",
         }
     },
@@ -69,7 +69,7 @@ export default [
         descricao: "Utilizo Javascript para aplicar lógicas no front-end, principalmente em manipulações do DOM em projetos que não uso " +
         "frameworks ou biblciotecas.",
         imagem:{
-            src: "./src/assets/images/design/javascript.png",
+            src: "./assets/images/design/javascript.png",
             alt:  "logo do javascript",
         }
     },
@@ -82,7 +82,7 @@ export default [
         + " Possuo conhecimento em propriedades (props) para reutilização de componentes e estados (state) para interações dinâmicas "
         + "com o usuário.",
         imagem:{
-            src: "./src/assets/images/design/react.svg",
+            src: "./assets/images/design/react.svg",
             alt:  "logo do react",
         }
     },
@@ -93,7 +93,7 @@ export default [
         metade: false,
         descricao: "Utilizo o terminal Git para atualizar meus projetos no GitHub e ter mais controle das atualizações que realizo.",
         imagem:{
-            src: "./src/assets/images/design/git.png",
+            src: "./assets/images/design/git.png",
             alt:  "logo do git",
         }
     },
@@ -106,7 +106,7 @@ export default [
         + "Escolhi Node Js para facilitar as implementações em back-end e manter o consumo de API mais seguro escondendo as chaves"
         + " de Api.",
         imagem:{
-            src: "./src/assets/images/design/nodejs.png",
+            src: "./assets/images/design/nodejs.png",
             alt:  "logo do Node Js",
         }
     },
