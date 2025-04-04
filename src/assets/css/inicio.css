@@ -38,17 +38,13 @@
     align-items: center;
     gap:2px;
     font-size: 0.8rem;
-    text-decoration: none;
 }
 
-.links-container a:hover{
-    text-decoration: underline;
-}
 
 .img-container{
     border: 6px solid #0F969C;
     border-radius: 44px;
-    width: 367px;
+    max-width: 367px;
     height: 80%;
 }
 
@@ -68,9 +64,10 @@
     .img-container{
         order: -1;
         height: 50%;
+        width: 50%;
     }
     .img-container img{
-        object-position: center 20%;
+        object-position: center;
     }
     .links-container img{
         border-radius: 5px;
