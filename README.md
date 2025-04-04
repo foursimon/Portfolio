@@ -10,10 +10,10 @@
 
 <h2><img src="./src/assets/images/design/funcao.png" width="50px" /> Tecnologias utilizadas</h2>
 <ul>
-    <li><p><img src="./src/assets/images/design/html.png" width="50px" /> <b>HTML</b>: utilizado para criar a página e definir a raiz dessa página</p></li>
-    <l1><p><img src="./src/assets/images/design/css.png" width="50px" /> <b>CSS</b>: utilizado para estilizar o site e implementar responsividade de acordo com o tamanho do aparelho do usuário</p></li>
-    <li><p><img src="./src/assets/images/design/javascript.png" width="50px" /> <b>Javascript</b>: utilizado para implementar vetores de objetos a serem renderizados na página, permitir estruturar o código para futura implementação de um banco de dados real. Também foi utilizado para criar funções que respondem a eventos do usuário.</p></li>
-    <li><p><img src="./src/assets/images/design/react.svg" width="50px" /> <b>React</b>: biblioteac utilizada para criar componentes a serem renderizados na página, estados (states) para interações dinâmicas com o usuário e propriedades (props) para a reutilização de componentes.</p></li>
+    <li><p><img src="./src/assets/images/design/html.png" width="30px" /> <b>HTML</b>: utilizado para criar a página e definir a raiz dessa página</p></li>
+    <l1><p><img src="./src/assets/images/design/css.png" width="30px" /> <b>CSS</b>: utilizado para estilizar o site e implementar responsividade de acordo com o tamanho do aparelho do usuário</p></li>
+    <li><p><img src="./src/assets/images/design/javascript.png" width="30px" /> <b>Javascript</b>: utilizado para implementar vetores de objetos a serem renderizados na página, permitir estruturar o código para futura implementação de um banco de dados real. Também foi utilizado para criar funções que respondem a eventos do usuário.</p></li>
+    <li><p><img src="./src/assets/images/design/react.svg" width="30px" /> <b>React</b>: biblioteac utilizada para criar componentes a serem renderizados na página, estados (states) para interações dinâmicas com o usuário e propriedades (props) para a reutilização de componentes.</p></li>
 </ul>
 
 <h2><img src="./src/assets/images/design/question.png" width="50px" /> Como funciona</h2>
