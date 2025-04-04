@@ -5,7 +5,7 @@ export function Star({nivel, metade}){
         backgroundImage: "linear-gradient(90deg, #00F7FF 100%,#D9D9D9 0%)"
     }
     const gradient2={
-        backgroundImage: "linear-gradient(90deg, #00F7FF 50%,#D9D9D9 0%)"
+        backgroundImage: "linear-gradient(90deg, #00F7FF 50%,#797979 0%)"
     }
     return (
         <div className="nivel-estrela">
@@ -16,7 +16,7 @@ export function Star({nivel, metade}){
                     if(index < nivel){
                         return <div key={index} className="star-icon" style={gradient}>{estrela}</div>
                     }
-                    return <div key={index} className="star-icon" style={{color: "#D9D9D9"}}>{estrela}</div>
+                    return <div key={index} className="star-icon" style={{color: "#797979"}}>{estrela}</div>
                 })
             }
         </div>
