@@ -7,7 +7,7 @@ export default [
         nivel: 3,
         metade: false,
         descricao: "Utilizo CSS em todos meus projetos front-end. Para aprendizado sobre css, não utilizo framework. No entanto, "
-        + "já aprendi e usei Bootstrap para o projeto da facauldade de A.D.S.",
+        + "já aprendi e usei Bootstrap para o projeto da faculdade de A.D.S.",
         imagem:{
             src: "src/assets/images/design/css.png",
             alt:  "logo do css",
@@ -55,7 +55,7 @@ export default [
         nivel: 3,
         metade: true,
         descricao: "Minhas APIs são desenvolvidas usando ASP.Net. Já apliquei autenticação JWT, chave API, Entity Framework, conexão "
-        + "entre APIs e serviços CRUD em base de dados Relacionais. Além disso, também utilizo em aplicações com arquitetura MVC.",
+        + "entre APIs com HttpClient e serviços CRUD em base de dados Relacionais. Além disso, também utilizo em aplicações com arquitetura MVC.",
         imagem:{
             src: "src/assets/images/design/aspnet.png",
             alt:  "logo do visual studio",
@@ -103,7 +103,7 @@ export default [
         nivel: 1,
         metade: false,
         descricao: "Utilizo Node Js para realizar requisições HTTP para outras APIs, principalmente para as APIs que eu desenvolvo."
-        + "Escolhi Node Js para facilitar as implementações em back-end e manter o consumo de API mais seguro escodendo as chaves"
+        + "Escolhi Node Js para facilitar as implementações em back-end e manter o consumo de API mais seguro escondendo as chaves"
         + " de Api.",
         imagem:{
             src: "src/assets/images/design/nodejs.png",
