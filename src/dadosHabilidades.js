@@ -9,7 +9,7 @@ export default [
         descricao: "Utilizo CSS em todos meus projetos front-end. Para aprendizado sobre css, não utilizo framework. No entanto, "
         + "já aprendi e usei Bootstrap para o projeto da faculdade de A.D.S.",
         imagem:{
-            src: "Portfolio/assets/images/design/css.png",
+            src: "assets/images/design/css.png",
             alt:  "logo do css",
         }
     },
