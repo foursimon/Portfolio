@@ -9,7 +9,7 @@ export default [
         descricao: "Utilizo CSS em todos meus projetos front-end. Para aprendizado sobre css, não utilizo framework. No entanto, "
         + "já aprendi e usei Bootstrap para o projeto da faculdade de A.D.S.",
         imagem:{
-            src: "src/assets/images/design/css.png",
+            src: "public/assets/images/design/css.png",
             alt:  "logo do css",
         }
     },
@@ -21,7 +21,7 @@ export default [
         descricao: "HTML foi meu primeiro passo para desenvolvimento de front-end. Além de ser capaz de estruturar um site, sempre estou"
         + " atento na semântica dos meus sites.",
         imagem:{
-            src: "src/assets/images/design/html.png",
+            src: "public/assets/images/design/html.png",
             alt:  "logo do html",
         }
     },
@@ -33,7 +33,7 @@ export default [
         descricao: "CSharp é a linguagem de programação que mais tenho familiaridade, sendo a minha escolha principal para desenvolvimento"
         + " de API Rest e aplicação de Orientação a Objetos. Esta linguagem foi o que usei para estudar Orientação a Objetos.",
         imagem:{
-            src: "src/assets/images/design/csharp.png",
+            src: "public/assets/images/design/csharp.png",
             alt:  "logo do csharp",
         }
     },
@@ -45,7 +45,7 @@ export default [
         descricao: "Todos meus projetos são armazenados e compartilhados através do GitHub. Ver meu progresso em desenvolvimento "
         + "através dos meus projetos mostra que estou aprendendo bastante, mas que há muito caminho pela frente.",
         imagem:{
-            src: "src/assets/images/design/github.png",
+            src: "public/assets/images/design/github.png",
             alt:  "logo do GitHub",
         }
     },
@@ -57,7 +57,7 @@ export default [
         descricao: "Minhas APIs são desenvolvidas usando ASP.Net. Já apliquei autenticação JWT, chave API, Entity Framework, conexão "
         + "entre APIs com HttpClient e serviços CRUD em base de dados Relacionais. Além disso, também utilizo em aplicações com arquitetura MVC.",
         imagem:{
-            src: "src/assets/images/design/aspnet.png",
+            src: "public/assets/images/design/aspnet.png",
             alt:  "logo do visual studio",
         }
     },
@@ -69,7 +69,7 @@ export default [
         descricao: "Utilizo Javascript para aplicar lógicas no front-end, principalmente em manipulações do DOM em projetos que não uso " +
         "frameworks ou biblciotecas.",
         imagem:{
-            src: "src/assets/images/design/javascript.png",
+            src: "public/assets/images/design/javascript.png",
             alt:  "logo do javascript",
         }
     },
@@ -82,7 +82,7 @@ export default [
         + " Possuo conhecimento em propriedades (props) para reutilização de componentes e estados (state) para interações dinâmicas "
         + "com o usuário.",
         imagem:{
-            src: "src/assets/images/design/react.svg",
+            src: "public/assets/images/design/react.svg",
             alt:  "logo do react",
         }
     },
@@ -93,7 +93,7 @@ export default [
         metade: false,
         descricao: "Utilizo o terminal Git para atualizar meus projetos no GitHub e ter mais controle das atualizações que realizo.",
         imagem:{
-            src: "src/assets/images/design/git.png",
+            src: "public/assets/images/design/git.png",
             alt:  "logo do git",
         }
     },
@@ -106,7 +106,7 @@ export default [
         + "Escolhi Node Js para facilitar as implementações em back-end e manter o consumo de API mais seguro escondendo as chaves"
         + " de Api.",
         imagem:{
-            src: "src/assets/images/design/nodejs.png",
+            src: "public/assets/images/design/nodejs.png",
             alt:  "logo do Node Js",
         }
     },

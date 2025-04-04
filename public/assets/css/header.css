@@ -1,0 +1,113 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #00F7FF;
+    border-bottom: 2px #0F969C solid;
+    padding: 10px 40px;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(to right, #05161a, #063e41, #014e51);
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+.header-title-container{
+    display: flex;
+    gap:10px;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title-container div{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.05rem;
+    gap:5px;
+}
+
+.header-nav .nav-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-transform: uppercase;
+    font-family: Prompt, Arial;
+    transition: transform 0.3s ease;
+}
+
+.nav-list .list-item a{
+    color: #0F969C;
+    text-decoration: none;
+}
+
+.nav-list .list-item a:hover{
+    filter: brightness(2)
+}
+
+.menu-btn{
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    border: 4px #0F969C solid;
+    background-color: #012b34;
+    border-radius: 5px;
+    border-bottom: none;
+    padding: 5px;
+    display: none;
+    transition: transform 0.35s ease;
+}
+.menu-btn div{
+    width: 30px;
+    height: 4px;
+    background-color: #0F969C;
+}
+
+.menu-btn div{
+    transition: 0.5s;
+}
+
+@media  screen and (max-width: 770px) {
+    .header-nav .nav-list{
+        position: fixed;
+        bottom:0;
+        left:0;
+        width: 100vw;
+        height: 10vh;
+        justify-content: space-around;
+        background-color: #014e51;
+        transform: translateX(200%);
+        flex-wrap: wrap;
+        z-index: 1000000;
+    }
+    header{
+        padding: 10px 10px;
+        justify-content: center;
+        position: static;
+    }
+    .menu-btn{
+        display: flex;
+        flex-direction: column;
+        gap:4px;
+        z-index: 100000;
+    }
+    .menu-btn.clicked{
+        padding: 9px 5px;
+        transform: translateY(-10vh);
+        border-color: #00F7FF;
+    }
+    .nav-list.show-nav{
+        transform: translateX(0);
+    }
+    .menu-btn.clicked .line1{
+        transform: rotate(45deg) translate(4px, 3px);
+    }
+    .menu-btn.clicked .line2{
+        display: none;
+    }
+    .menu-btn.clicked .line3{
+        transform: rotate(-45deg) translate(2px, -2px);
+        background-color: #00F7FF;
+    }
+}
