@@ -1,0 +1,40 @@
+.display-container{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 300px;
+}
+.display-img-container{
+    border: 4px #00F7FF solid;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+div.display-img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+div.display-text-container{
+    border: 4px #00F7FF solid;
+    color: #00F7FF;
+    background-color: #014e51;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    padding: 5px;
+    line-height: 16px;
+    min-width: 200px;
+    font-family: Prompt, "Arial";
+}
+
+@media (pointer: coarse) {
+    .display-container{
+        display: none;
+    }
+}
