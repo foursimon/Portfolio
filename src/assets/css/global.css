@@ -46,3 +46,10 @@ main{
         font-size: 2rem !important;
     }
 }
+.link{
+    color: #00F7FF;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+}
