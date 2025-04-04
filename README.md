@@ -1,4 +1,4 @@
-<h1><img src="./src/assets/images/design/portfolio.png" width="80px" /> Portfólio Giovanni A. Valieri</h1>
+<h1 style="text-align: center"><img src="./src/assets/images/design/portfolio.png" width="80px" /> Portfólio Giovanni A. Valieri</h1>
 
 <h2>Resumo</h2>
 <p>Este projeto consiste no meu portfólio desenvolvido com HTML, CSS, Javascript e React</p>
