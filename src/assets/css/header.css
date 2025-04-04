@@ -1,4 +1,4 @@
-header{
+.header-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,7 +81,7 @@ header{
         flex-wrap: wrap;
         z-index: 1000000;
     }
-    header{
+    .header-section{
         padding: 10px 10px;
         justify-content: center;
         position: static;

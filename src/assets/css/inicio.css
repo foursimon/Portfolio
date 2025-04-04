@@ -9,7 +9,8 @@
     background-size: cover;
     background-position: 0 30%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap:30px;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -60,6 +61,7 @@
         justify-content: center;
         gap: 10px;
         flex-direction: column;
+        text-align: center;
     }
     .img-container{
         order: -1;

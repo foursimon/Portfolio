@@ -40,7 +40,11 @@ main{
 ::-webkit-scrollbar-thumb:hover {
     background: #00F7FF;
 }
-
+@media screen and (max-width: 731px) {
+    main p{
+        font-size: 0.8rem !important;
+    }
+}
 @media screen and (max-width: 500px){
     .section-title, h1{
         font-size: 2rem !important;

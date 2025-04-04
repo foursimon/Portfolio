@@ -17,7 +17,7 @@ export function Footer(){
                 </div>
                 <div className="contato-container">
                     <img src={whatsapp} alt="carta de mensagem pequena" />
-                    <p>Celular/Whatsapp: 19 99689-5763</p>
+                    <p>Celular/Whatsapp: <a href="https://wa.me/19996895763" className="link">19 99689-5763</a></p>
                 </div>
                 <div className="contato-container">
                     <img src={linkedin} alt="carta de mensagem pequena" />
