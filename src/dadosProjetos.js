@@ -16,7 +16,7 @@ export default [
         nome: "HttpClientApi",
         descricao: `Este projeto consiste em uma API Rest que se comunica com outra API.
         O projeto foi desenvolvido usando ASP.Net C#. Nele, apliquei medidas de seguranças com chave API para autorizar a requisição realizada, e política CORS para definir quem pode realizar a requisição e quais tipos de requisições são permitidas.
-        Utilizei a classe HttpClient para realizar as requisições HTTP a outra API, permitindo definir o enderenço de conexão e os serviços que a minha API realiza e permite o usuário realizar.`,
+        Utilizei a classe HttpClient para realizar as requisições HTTP a outra API, permitindo definir o enderenço de conexão e os serviços que podem consultar.`,
         imagem:{
             src: "assets/images/projetos/httpclientapi.gif",
             alt: "Gif mostrando um pouco do projeto HttpClientApi, onde é realizado uma requisição http get para receber os dados de outra api."
