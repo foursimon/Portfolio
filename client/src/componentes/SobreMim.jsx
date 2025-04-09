@@ -1,4 +1,4 @@
-import {Tempo} from "./subcomponentes/Tempo"
+import {Tempo} from "./subcomponentes/Tempo.jsx"
 import dados from "../dadosLinhaTempo.js"
 import "../assets/css/sobreMim.css"
 export function SobreMim() {
