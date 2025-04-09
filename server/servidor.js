@@ -9,12 +9,11 @@ const opcoesCors = {
 
 servidor.use(cors(opcoesCors))
 dotenv.config()
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 
 servidor.get("/api", (requisicao, resposta ) =>{
     const opcoes = {
         method: "GET",
-        url: "https://localhost:7058/api/Github",
+        url: "https://githubapi2.onrender.com/api/Github",
         headers: {
             "Content-type": "application/json",
             "Api-Key": process.env.APIKEY
