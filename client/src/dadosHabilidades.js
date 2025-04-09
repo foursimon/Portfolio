@@ -93,7 +93,7 @@ export default [
         metade: false,
         descricao: "Utilizo o terminal Git para atualizar meus projetos no GitHub e ter mais controle das atualizações que realizo.",
         imagem:{
-            src: "src/assets/images/design/git.png",
+            src: "assets/images/design/git.png",
             alt:  "logo do git",
         }
     },
@@ -106,7 +106,7 @@ export default [
         + "Escolhi Node Js para facilitar as implementações em back-end e manter o consumo de API mais seguro escondendo as chaves"
         + " de Api.",
         imagem:{
-            src: "src/assets/images/design/nodejs.png",
+            src: "assets/images/design/nodejs.png",
             alt:  "logo do Node Js",
         }
     },
