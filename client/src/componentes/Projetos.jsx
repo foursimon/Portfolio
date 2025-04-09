@@ -5,7 +5,7 @@ import axios from "axios"
 export function Projetos(){
     const [projetos, setProjetos] = useState([])
     async function buscarApi(){
-        const resposta = await axios.get("http://localhost:8080/api")
+        const resposta = await axios.get("https://portfolio-tw88.onrender.com/api")
         const lista = resposta.data.map(dado => (
             <section key={dado.Id} className="projeto-section">
                     <p>{dado.Description}</p>
