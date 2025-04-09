@@ -4,7 +4,7 @@ const dotenv = require("dotenv")
 const axios = require("axios")
 const cors = require("cors")
 const opcoesCors = {
-    origin: "http://localhost:5173"
+    origin: "https://webportfolio-fi4k.onrender.com"
 }
 
 servidor.use(cors(opcoesCors))
