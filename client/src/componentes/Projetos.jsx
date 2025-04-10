@@ -5,7 +5,12 @@ import axios from "axios"
 export function Projetos(){
     const [projetos, setProjetos] = useState([])
     async function buscarApi(){
-        const resposta = await axios.get("https://portfolio-tw88.onrender.com/api")
+        const opcoes = {
+            method: "GET",
+            url: "https://portfolio-tw88.onrender.com/api",
+            mode: "cors"
+        }
+        const resposta = await axios.request(opcoes)
         const lista = resposta.data.map(dado => (
             <section key={dado.Id} className="projeto-section">
                     <p>{dado.Description}</p>
