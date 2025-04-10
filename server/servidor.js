@@ -14,7 +14,7 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
 servidor.get("/api", (requisicao, resposta ) =>{
     const opcoes = {
         method: "GET",
-        url: "https://localhost:7058/api/Github",
+        url: "https://githubapi2.onrender.com/api/Github",
         headers: {
             "Content-type": "application/json",
             "Api-Key": process.env.APIKEY
@@ -23,7 +23,10 @@ servidor.get("/api", (requisicao, resposta ) =>{
     }
     axios.request(opcoes).then(res => {
         resposta.json(res.data)
-    }).catch(erro => resposta.json(projetosLocal))
+    }).catch(erro => {
+        console.log(erro)
+        resposta.json(projetosLocal)
+    })
 })
 
 servidor.listen(8080, () => console.log("Servidor iniciou na porta: 8080"))
