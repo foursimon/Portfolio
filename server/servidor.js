@@ -3,7 +3,7 @@ const servidor = express()
 const dotenv = require("dotenv")
 const axios = require("axios")
 const cors = require("cors")
-const port = process.env.PORT
+const port = process.env.PORT || 8080
 const opcoesCors = {
     origin: "https://webportfolio-fi4k.onrender.com"
 }
