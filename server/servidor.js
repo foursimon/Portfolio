@@ -10,7 +10,11 @@ const opcoesCors = {
 servidor.use(cors(opcoesCors))
 dotenv.config()
 
-servidor.get("/api", (requisicao, resposta ) =>{
+servidor.get("/api", async (requisicao, resposta ) =>{
+    resposta.json(await PegarRepositorios())
+})
+
+async function PegarRepositorios(){
     const opcoes = {
         method: "GET",
         url: "https://githubapi2.onrender.com/api/Github",
@@ -20,12 +24,16 @@ servidor.get("/api", (requisicao, resposta ) =>{
         },
         mode: "cors"
     }
-    axios.request(opcoes).then(res => {
-        resposta.json(res.data)
-    }).catch(erro => resposta.json(projetosLocal))
-})
+    try{
+        const resposta = await axios.request(opcoes)
+        const conteudo = await resposta.data
+        return conteudo
+    }catch(erro){
+        return projetosLocal
+    }
+}
 
-servidor.listen(8080, () => console.log("Servidor iniciou na porta: 8080"))
+servidor.listen(8080)
 
 
 const projetosLocal = [
