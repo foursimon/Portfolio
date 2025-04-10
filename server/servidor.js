@@ -3,6 +3,7 @@ const servidor = express()
 const dotenv = require("dotenv")
 const axios = require("axios")
 const cors = require("cors")
+const port = process.env.PORT
 const opcoesCors = {
     origin: "https://webportfolio-fi4k.onrender.com"
 }
@@ -29,11 +30,12 @@ async function PegarRepositorios(){
         const conteudo = await resposta.data
         return conteudo
     }catch(erro){
+        console.log(erro)
         return projetosLocal
     }
 }
 
-servidor.listen(8080)
+servidor.listen(port)
 
 
 const projetosLocal = [
