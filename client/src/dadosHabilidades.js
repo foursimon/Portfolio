@@ -51,7 +51,7 @@ export default [
     },
     {
         id:5,
-        nome: "ASP.Net",
+        nome: ".Net",
         nivel: 3,
         metade: true,
         descricao: "Minhas APIs são desenvolvidas usando ASP.Net. Já apliquei autenticação JWT, chave API, Entity Framework, conexão "
