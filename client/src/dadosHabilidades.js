@@ -89,8 +89,8 @@ export default [
     {
         id:8,
         nome: "Git",
-        nivel: 2,
-        metade: false,
+        nivel: 3,
+        metade: true,
         descricao: "Utilizo o terminal Git para atualizar meus projetos no GitHub e ter mais controle das atualizações que realizo.",
         imagem:{
             src: "assets/images/design/git.png",
@@ -100,8 +100,8 @@ export default [
     {
         id:9,
         nome: "Node Js",
-        nivel: 1,
-        metade: false,
+        nivel: 2,
+        metade: true,
         descricao: "Utilizo Node Js para realizar requisições HTTP para outras APIs, principalmente para as APIs que eu desenvolvo."
         + "Escolhi Node Js para facilitar as implementações em back-end e manter o consumo de API mais seguro escondendo as chaves"
         + " de Api.",
