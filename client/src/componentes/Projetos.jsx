@@ -5,9 +5,10 @@ import {useState, useEffect} from "react"
 import axios from "axios"
 export function Projetos(){
     const [projetos, setProjetos] = useState([])
+    console.log("renderizado")
     async function buscarApi(){
         try{
-            const resposta = await axios.get("https://localhost:32773/api/Github")
+            const resposta = await axios.get("https://localhost:32769/api/Github")
             const lista = resposta.data.map(dado => (
             <section key={dado.Id} className="projeto-section">
                     <p>{dado.Description}</p>
